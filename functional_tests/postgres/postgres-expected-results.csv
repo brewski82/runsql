@@ -1,0 +1,2 @@
+"id","bignumber","numericnumber","cash","name_first","name_last","sometext","somebinary","atimestamp","anothertimestamp","adate","atime","ainterval","aboolean","anull","ajson"
+1,9223372036854775806,1234.12234949493,124.55,"Joe","Smith","blah blah blah","[-34, -83, -66, -17]","1999-01-08 04:05:06.0","1999-01-08 07:05:06.0","1999-01-08","04:05:06","0 years 0 mons 3 days 4 hours 5 mins 6.00 secs","true",,"{""bar"": ""baz"", ""balance"": 7.77, ""active"": false}"

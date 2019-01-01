@@ -1,0 +1,55 @@
+#!/bin/sh
+#
+# Copyright 2019 William Bruschi - williambruschi.net
+#
+# This file is part of runsql.
+#
+# runsql is free software: you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# runsql is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with runsql.  If not, see <https://www.gnu.org/licenses/>.
+#
+
+set -e
+
+function readlinkf() {
+    TARGET_FILE=$1
+
+    cd `dirname $TARGET_FILE`
+    TARGET_FILE=`basename $TARGET_FILE`
+
+    while [ -L "$TARGET_FILE" ]
+    do
+	TARGET_FILE=`readlink $TARGET_FILE`
+	cd `dirname $TARGET_FILE`
+	TARGET_FILE=`basename $TARGET_FILE`
+    done
+
+    PHYS_DIR=`pwd -P`
+    RESULT=$PHYS_DIR/$TARGET_FILE
+    echo $RESULT
+}
+
+parent_dir=$(dirname "$(dirname "$(readlinkf "$0")")")
+lib_dir="$parent_dir/lib"
+cp="$lib_dir/*"
+
+echo $lib_dir
+
+if [ -n "$RUNSQL_JDBC_DIR" ]; then
+    cp="$cp:$RUNSQL_JDBC_DIR/*"
+fi
+
+if [ -n "$RUNSQL_JDBC_PATH" ]; then
+    cp="$cp:$RUNSQL_JDBC_PATH"
+fi
+
+java -cp "$cp" runsql.RunSqlMain "${@}"

@@ -1,0 +1,2 @@
+"id","bignumber","numericnumber","cash","name_first","name_last","sometext","somebinary","atimestamp","adate","atime","abit","anull"
+1,9223372036854775806,1234.12230,124.55,"Joe","Smith","blah blah blah","[97, 0, 0]","1999-01-08 04:05:06.0","1999-01-08","04:05:06","true",

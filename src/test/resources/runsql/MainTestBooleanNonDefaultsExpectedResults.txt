@@ -1,0 +1,3 @@
+1	firstone	lastone	2000-01-01	t	null
+2	firsttwo	lasttwo	2000-02-01	t	2008-08-08 20:08:08.0
+3	firstthree	lasttwo	2000-02-01	f	null

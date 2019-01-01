@@ -1,0 +1,14 @@
+insert into person values (3, 'firstone', 'lastone', '2000-01-01', true, null);
+insert into person values (4, 'firsttwo', 'lasttwo', '2000-02-01', true, timestamp '2008-08-08 20:08:08-4:00');
+insert into person values (5, 'firstone', 'lastone', '2000-01-01', true, null);
+insert into person values (6, 'firsttwo', 'lasttwo', '2000-02-01', true, timestamp '2008-08-08 20:08:08-4:00');
+insert into person values (7, 'firstone', 'lastone', '2000-01-01', true, null);
+insert into person values (8, 'firsttwo', 'lasttwo', '2000-02-01', true, timestamp '2008-08-08 20:08:08-4:00');
+insert into person values (9, 'firstone', 'lastone', '2000-01-01', true, null);
+insert into person values (10, 'firsttwo', 'lasttwo', '2000-02-01', true, timestamp '2008-08-08 20:08:08-4:00');
+insert into person values (11, 'firstone', 'lastone', '2000-01-01', true, null);
+insert into person values (12, 'firsttwo', 'lasttwo', '2000-02-01', true, timestamp '2008-08-08 20:08:08-4:00');
+insert into person values (13, 'firstone', 'lastone', '2000-01-01', true, null);
+insert into person values (14, 'firsttwo', 'lasttwo', '2000-02-01', true, timestamp '2008-08-08 20:08:08-4:00');
+insert into person values (15, 'firstone', 'lastone', '2000-01-01', true, null);
+insert into person values (16, 'firsttwo', 'lasttwo', '2000-02-01', true, timestamp '2008-08-08 20:08:08-4:00');

@@ -1,0 +1,15 @@
+a	ab	55.5	54.5	22	10	43.2	23.3	223434.22	2000-01-01	04:05:06
+b	null	null	null	null	null	null	null	null	null	null
+b	null	null	null	null	null	null	null	null	null	null
+c	null	null	null	null	null	null	null	null	null	null
+c	null	null	null	null	null	null	null	null	null	null
+d	null	null	null	null	null	null	null	null	null	null
+d	null	null	null	null	null	null	null	null	null	null
+e	null	null	null	null	null	null	null	null	null	null
+e	null	null	null	null	null	null	null	null	null	null
+f	null	null	null	null	null	null	null	null	null	null
+f	null	null	null	null	null	null	null	null	null	null
+g	null	null	null	null	null	null	null	null	null	null
+g	null	null	null	null	null	null	null	null	null	null
+h	null	null	null	null	null	null	null	null	null	null
+h	null	null	null	null	null	null	null	null	null	null

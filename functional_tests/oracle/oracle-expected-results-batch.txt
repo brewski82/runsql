@@ -1,0 +1,15 @@
+1	9223372036854775806	1234.1223	124.55	123.66	123.66	Joe	Smith	1999-01-08 04:05:06.0	1999-01-08 00:00:00.0
+2	null	null	null	null	null	null	null	null	null
+2	null	null	null	null	null	null	null	null	null
+3	null	null	null	null	null	null	null	null	null
+3	null	null	null	null	null	null	null	null	null
+4	null	null	null	null	null	null	null	null	null
+4	null	null	null	null	null	null	null	null	null
+5	null	null	null	null	null	null	null	null	null
+5	null	null	null	null	null	null	null	null	null
+6	null	null	null	null	null	null	null	null	null
+6	null	null	null	null	null	null	null	null	null
+7	null	null	null	null	null	null	null	null	null
+7	null	null	null	null	null	null	null	null	null
+9	null	null	null	null	null	null	null	null	null
+9	null	null	null	null	null	null	null	null	null
